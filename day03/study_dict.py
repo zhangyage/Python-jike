@@ -21,3 +21,15 @@ print w["name"]
 #第四种方法
 book = {}.fromkeys(("python","author"),"zhang")
 print book
+
+#字典的一些操作方式
+city_codes = {"suzhou":'0512',"beijing":'011',"shanghai":'012',"nanjing":'215'}
+print city_codes
+
+#修改字典的元素
+city_codes["beijing"]='010'
+print city_codes
+
+#删除字典的某个元素
+del city_codes["nanjing"]
+print city_codes
