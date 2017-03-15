@@ -1,0 +1,3 @@
+get-pip.py在windows下得到python的包管理工具
+
+linux下安装pip使用yum -y install python-pip
