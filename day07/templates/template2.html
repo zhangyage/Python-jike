@@ -1,0 +1,22 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+  <h1>Hello, {{name}},你好，欢迎学习Flask！</h1>
+  <div>
+  	<a class="btn btn-default" href="#" role="button">Link</a>
+	<button class="btn btn-default" type="submit">Button</button>
+	<input class="btn btn-default" type="button" value="Input">
+	<input class="btn btn-danger" type="submit" value="Submit">
+  </div>
+{% endblock %}
+
+
+
+

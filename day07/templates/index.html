@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Calculator</title>
+</head>
+
+<body>
+<div align="center" style="margin-top:40px">
+	<img src="{{url_for('static',filename='app.png')}}" width="80" height="80" /></div>
+<div align="center" style="margin-top:60px">
+	<form method="post" name="form1">
+    	<input name="adder1" type="text" placeholder="adder"> +
+        <input name="adder2" type="text" placeholder="adder-2"> =
+        <input name="result" type="text" readonly="true" placeholder="result" value={{message}}>
+        <input type="submit" value="计算" onclick="add()">
+	</form>
+
+</div>
+</body>
+</html>

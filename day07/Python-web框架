@@ -1,0 +1,17 @@
+web框架中的一些概念:
+MVC(model,view,controller)
+ORM(object-relational mapping)
+URL Route
+Template    通过渲染的方式传递给我们的html网页人性化显示
+
+python常见的框架
+1、Django
+2、web.py  tornado  微框架
+3、flask  Bottle     
+
+在使用flask框架的时候，对应的我们的
+网页文件需要放置在templates目录中  静态文件（js\png\jpg）放置在static中，这些都是严格规定的
+
+flsk插件安装：
+python -m pip install flask
+python -m pip install flask-bootstarp 安装bootstarp插件可以快速开发网站
