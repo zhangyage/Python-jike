@@ -1,0 +1,10 @@
+WSGI简介
+WSGI(Python web Server Gateway interface)
+定义了web服务器和web应用程序之间通信的接口规范
+
+WSGI应用
+是一个接受两个参数的可调用对象
+
+两个参数是：
+1、environ参数是个字典对象，包含CGI风格的环境变量
+2、start_response参数是一个接受两个固定参数和一个可选参数的可调用者
